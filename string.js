@@ -19,5 +19,6 @@ console.log(fullName);
 // 4.
 
 const userName = "Oleg";
-const payment = alert(`Дякуємо, Олег! До сплати 300 гривень`);
-console.log(payment);
+const payment = "300";
+const endPayment = alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
+console.log(endPayment);
